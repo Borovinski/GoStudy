@@ -13,7 +13,12 @@ func throwPipe(score *int) int {
 
 func goodScore(score *int) {
 	if *score > 10 {
-		fmt.Println("Хороший результат!")
+		fmt.Println("Нормальный результат!")
+		if *score > 15 {
+			fmt.Println("Лучший результат!")
+		} else {
+			fmt.Println("Хороший результат")
+		}
 	} else {
 		fmt.Println("Плохой результат!")
 	}

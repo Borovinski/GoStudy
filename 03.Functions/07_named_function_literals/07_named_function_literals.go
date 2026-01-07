@@ -13,5 +13,6 @@ func main() {
 	tax := calculateTax(subtotal)
 	total := subtotal + tax
 	fmt.Printf("Total amount to pay: $%.2f\n", total)
+	
 
 }
